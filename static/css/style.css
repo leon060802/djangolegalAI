@@ -1,0 +1,126 @@
+/* General Page Styling */
+body {
+    background: linear-gradient(135deg, #e3f2fd, #f1f8e9); /* Light blue to light green gradient */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+
+.error {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    position: relative; /* Required for tooltip positioning */
+}
+
+
+/* Navbar Styling */
+.navbar {
+    border-bottom: 1px solid #dee2e6; /* Subtle border for the navbar */
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    max-width: 100%; /* Ensure no spacing issues from the parent container */
+    padding: 0; /* Remove additional padding added by .container */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-left: 3rem;
+}
+
+.navbar-brand .text-primary {
+    color: #007bff; /* Primary color for .JS */
+}
+
+.navbar-brand img {
+    border-radius: 50%; /* Circular logo */
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #6c757d; /* Soft gray */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #000000; /* Black for active link */
+}
+
+/* Card Styling */
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Allows the card to shrink or grow based on text width */
+    max-width: 100%; /* Ensures it doesn't exceed container width */
+    padding: 16px; /* Adds space around the content */
+    margin: 16px auto; /* Center align while adding top/bottom spacing */
+    text-align: left; /* Ensures the text alignment remains consistent */
+}
+
+
+.card h3, .card h2 {
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-dark {
+    background-color: #000;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #333;
+}
+
+.btn-secondary {
+    background-color: #000000 !important;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Result Styling */
+.result {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    white-space: pre-wrap;
+    overflow-x: auto;
+    font-size: 1.25rem;
+    /* line-height: 1.6;  */
+}
+
+/* Smaller upload form container */
+.upload-container {
+    max-width: 400px; /* Adjust width as needed */
+    margin: 50px auto;   /* Center the container */
+    border-radius: 8px; /* Slightly round the corners */
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Gradient background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adds space around the content */
+}
+
+.col {
+    border-radius: 12px; /* Rounded corners */
+    background: linear-gradient(135deg, #ffffff, #f1f3f5); /* Gradient background for columns */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+    padding: 15px;
+}
+
+.btn-secondary {
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.container {
+    padding: 20px; /* Optional: Add padding around the container for better spacing */
+}
